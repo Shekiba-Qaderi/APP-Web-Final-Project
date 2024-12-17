@@ -1,0 +1,431 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Neue;
+}
+
+/*Font*/
+@font-face {
+    font-family: 'Neue';
+    src: url('Neue Haas Unica W06 Regular.ttf');
+}
+@font-face {
+    font-family: 'ogg regular';
+    src: url('Ogg-Regular.otf');
+}
+@font-face {
+    font-family: 'Rare Essence';
+    src: url('Rare Essence.ttf');
+}
+
+/*styles of navbar*/
+.menu{
+    background-color: #e7e8f1;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #7a0036;
+    display: flex;
+    justify-content: center;
+}
+.menu h1{
+    position: absolute;
+    top: 10px;
+    left:38px;
+    font-weight: bold;
+    font-family: Neue;
+    font-size: 24px;
+	color: #7a0036;
+}
+.menu a{
+    color: #7a0036;
+    font-family: Neue;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0px 20px;
+    position: relative;
+    top:16px;
+    padding:5px;
+}
+.menu a:hover{
+    border-bottom: 1px solid #7a0036;
+}
+#user-icon, #bag-icon{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: #7a0036;
+}
+#bag-icon{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    color: #7a0036;
+}
+/*end styles of navbar*/
+
+/*styles part of home*/
+.row1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-make{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+}
+.photo-make img{
+    width: 100%;
+    border-radius: 50%;
+}
+.photo-make h1{
+    font-size: 50px;
+    font-family: ogg regular;
+    color: #0f0f0f;
+}
+.photo-make p{
+    padding: 10px;
+    font-size: 24px;
+    font-family: Neue;
+    color: #1f1e1e;
+}
+.photo-make a{
+    padding: 10px;
+    color: #7a0036;
+	letter-spacing: 3px;
+	font-family:Neue;
+}
+.row2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text2 span{
+	font-size: 85px; 
+	font-family: Rare Essence;
+}
+.text2 h1{
+    font-size: 50px;
+}
+.text2 p{
+    font-size: 22px;
+    font-family: Neue;
+}
+.btn{
+	border: 1px solid #7a0036;
+	font-family: Neue;
+    letter-spacing: 5px;
+    width: 100%;
+    height: 35px;
+}
+.btn:hover{
+	background: #7a0036;
+	color: #fff;
+	transition: all 0.7s linear;
+}
+.finder-photo{
+    width: 25%;
+    margin: 0px 12px;
+}
+.finder-photo img{
+    width: 100%;
+    border-radius: 2px;
+}
+.finder-photo img:hover{
+    transform: scale(1.1);
+    transition: all 0.7s linear;
+}
+.row3{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*end styles of home*/
+
+/*styles of shopping*/
+.shop a{
+    text-decoration: none;
+    color: #7a0036;
+    margin-right: 10px;
+    padding: 5px 20px;
+    border: 1px solid #7a0036;
+    
+}
+.shop a:hover{
+    background-color: #7a0036;
+    color: #fff;
+    transition: all 0.4s linear;
+}
+.prodact{
+    width: 30%;
+    padding: 30px;
+    overflow: hidden;
+}
+.prodact img{
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+.prodact:hover img{
+    transform: scale(0.9);
+}
+.prodact h3{
+    font-family: ogg regular;
+    margin-top: 10px; 
+}
+.prodact i{
+    color: #7a0036;
+}
+.details1{
+    width: 30%;
+    padding: 35px;
+    margin: 5px;
+}
+.details2{
+    width: 50%;
+    padding: 45px;
+    margin-left: 15px;
+}
+.details1 img{
+    width: 100%;
+}
+.details2 h1{
+    font-family: ogg regular;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.details2 p{
+    font-family: Neue;
+}
+.hint{
+    text-align: center;
+    font-size: 35px;
+    font-family: ogg regular;
+    color: rgb(22, 22, 22);
+    font-weight: 100;
+}
+.hint span{
+    font-family: Rare Essence;
+    font-size: 65px;
+}
+.why{
+    text-align: center;
+    font-size: 18px;
+    font-family: ogg regular;
+    margin-bottom: 20px;
+    color: #7a0036;
+    font-weight: 100;
+}
+/*end styles of shopping*/
+
+/*styles part of beauty-impact*/
+.impact{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #c23057;
+    font-family: Neue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.impact-photo{
+    width: 50%;
+}
+.impact-photo img{
+    width: 100%;
+}
+.impact-text{
+    width: 50%;
+    padding: 90px;
+    color: rgb(250, 240, 240);
+    font-family: Neue;
+}
+.mental{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Neue;
+    background: #7a0036;
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+}
+.rare{
+    text-align: center;
+    color: #7a0036;
+}
+.row5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-photo{
+    width: 50%;
+    overflow: hidden;
+}
+.social-photo img{
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+.social-photo:hover img{
+    transform: scale(1.5);
+}
+.social-text{
+    width: 30%;
+    padding: 40px;
+}
+.impact-team{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Neue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+    width: 30%;
+    padding: 10px;
+}
+.team img{
+    width: 100%;
+    border-radius: 50%;
+}
+/*end of beauty-impact*/
+
+.contact{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .col{
+    width: 45%;
+    padding: 10px;
+}
+.contact input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #7a0036;
+    border-radius: 0px;
+    margin: 10px;
+}
+.contact textarea{
+    border: none;
+    border-bottom: 1px solid #7a0036;
+    border-radius: 0px;
+    width: 100%;
+    margin: 10px;
+}
+.contact button{
+    padding: 3px 20px;
+    border: 1px solid #7a0036;
+    background: #7a0036;
+    color: #fff;
+    margin: 10px;
+    transition: all 0.6s;
+}
+.contact button:hover{
+    background: #fff;
+    border: 1px solid #7a0036;
+    color: #7a0036;
+}
+.contact .col img{
+    width: 100%;
+}
+/*styles part of footer*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+footer{
+	width: 100%;
+	background: #e7e8f1;
+	color: #7a0036;
+	border-top: 1px solid #7a0036;
+	padding: 50px 0 30px;
+	font-size: 14px;
+	line-height: 24px;
+    font-family: Neue;
+}
+.row-footer{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+footer .footer{
+	flex-basis: 50%;
+	padding: 10px;
+}
+footer .footer p{
+	padding: 0;
+	margin: 0;
+}
+.footer:nth-child(2), .footer:nth-child(3){
+	flex-basis: 15%;
+}
+footer h3{
+	width: fit-content;
+	margin-bottom: 35px;
+	position: relative;
+}
+footer form{
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #7a0036;
+	margin-bottom: 50px;
+}
+footer form .far{
+	font-size: 18px;
+	margin-right: 10px;
+}
+footer form input{
+	width: 100%;
+	background: transparent;
+	color: #7a0036;
+	border: 0;
+	outline: none;
+}
+footer form button{
+	background: transparent;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+footer form button .fas{
+	font-size: 16px;
+	color: #7a0036;
+}
+footer .social-icons .fab{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: #fdf6f0;
+	background: #7a0036;
+	margin-right: 15px;
+	cursor: pointer;
+}
+footer .social-icons .fab:hover{
+	background: #fdf6f0;
+	color: #7a0036;
+    transition: 1s;
+}
+/*end styles part of footer*/

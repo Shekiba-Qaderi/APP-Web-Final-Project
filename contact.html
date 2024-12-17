@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <!--part of navbar-->
+        <div class="menu">
+            <h1>Beauty</h1>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="shopping.html">SHOPPING</a>
+                <a href="beauty-impact.html">BEAUTY IMPACT</a>
+                <a href="contact.html" style="border-bottom: 1px solid #7a0036;">CONTACT</a>
+            </nav>
+            <i class="fa fa-user" id="user-icon"></i>
+            <i class="fa fa-bag-shopping" id="bag-icon"></i>
+        </div><br><br>
+        <!--end navbar-->
+
+        <!--part of contact-->
+        <div class="contact">
+            <div class="col">
+                <img src="lip.webp" alt="">
+            </div>
+            <div class="col">
+                <h1 style="text-align: center; font-family: ogg regular; color: #7a0036;">Contact Us</h1><br><br><br>
+                <form action="submit.html" method="get" onsubmit="return validate();">
+                    <input type="text" id="firstname" class="form-control mt-4 mb-5" placeholder="Name"/>
+                    <input type="text" id="lastname" class="form-control mb-5" placeholder="Last Name"/>
+                    <input type="text" id="password" class="form-control mb-4" placeholder="Email"/>
+                    <textarea name="" class="form-control mb-4" id="" cols="30" rows="5" placeholder="Massages"></textarea>
+                    <button class="mb-4">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+        <!--end contact-->
+
+        <!--part of footer-->
+        <footer>
+            <div class="row row-footer">
+                <div class="footer">
+                    <p>
+                        By entering your email address and clicking "Join Us" you agree to receive marketing email messages from Rare Beauty 
+                        at the email address provided. Unsubscribe at any time. View our Privacy Policy & Terms of Service.
+                    </p><br>
+                    <form>
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h3><strong>COMPANY</strong></h3>
+                    <p>About Us</p>
+                    <p>Rare Impact</p>
+                    <p>Made Accessible</p>
+                    <p>Sustainability</p>
+                    <p>Store Locator</p>
+                </div>
+                <div class="footer">
+                    <h3><strong>SERVICE</strong></h3>
+                    <p>Contact Us</p>
+                    <p>Shipping & Returns</p>
+                    <p>Start a U.S. Returns</p>
+                    <p>FAQs</p>
+                    <p>U.S. Gift Card Balance</p>
+                    <p>Shade Match Live Chat</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
